@@ -38,7 +38,7 @@ func getMealPlan(apiBase string, apiKey string) ([]mealPlanItem, error) {
 	page := 1
 
 	for {
-		u, err := url.JoinPath(apiBase, "/api/groups/mealplans")
+		u, err := url.JoinPath(apiBase, "/api/households/mealplans")
 		if err != nil {
 			return items, err
 		}
