@@ -9,3 +9,5 @@ To use, simply run with the `MEALIE_API_KEY` and `MEALIE_URL` environment variab
 ```bash
 MEALIE_API_KEY=apikeyhere MEALIE_URL=https://mealie.example.com go run .
 ```
+
+Use the calendar at the URL `http://localhost:3333/mealie.ics`.
