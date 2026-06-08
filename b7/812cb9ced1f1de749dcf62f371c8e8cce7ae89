@@ -1,0 +1,32 @@
+main.go
+  s_4e12648990f3e6::t_25781095304d2b 53-58,130-137
+  s_4e12648990f3e6::t_84f49d5c263b18 5,18,20-21,26-30,34-52,59,75,107,125-128,142
+  h_2463f6ed1216b2 31-33
+main_test.go
+  s_4e12648990f3e6::t_84f49d5c263b18 1-10,13-36,38-44,51-72
+  s_4e12648990f3e6::t_25781095304d2b 11-12,37,45-50
+README.md
+  s_4e12648990f3e6::t_84f49d5c263b18 13-20,24-27,29-30
+  s_4e12648990f3e6::t_66cc25b5620e2e 21-23,28
+---
+{
+  "schema_version": "authorship/3.0.0",
+  "git_ai_version": "1.5.3",
+  "base_commit_sha": "b7812cb9ced1f1de749dcf62f371c8e8cce7ae89",
+  "prompts": {},
+  "humans": {
+    "h_2463f6ed1216b2": {
+      "author": "Jake Walker <hi@jakew.me>"
+    }
+  },
+  "sessions": {
+    "s_4e12648990f3e6": {
+      "agent_id": {
+        "tool": "codex",
+        "id": "019ea71a-2e80-7d62-8a77-be3b77dfb984",
+        "model": "gpt-5.5"
+      },
+      "human_author": "Jake Walker <hi@jakew.me>"
+    }
+  }
+}
