@@ -21,10 +21,16 @@ Meal start times can be overridden with optional environment variables in 24-hou
 | `MEALIE_BREAKFAST_TIME` | `09:00` |
 | `MEALIE_LUNCH_TIME` | `12:00` |
 | `MEALIE_DINNER_TIME` | `19:00` |
+| `TZ` | `UTC` |
+| `MEALIE_FLOATING_TIMES` | `false` |
+
+When `TZ` is set, configured meal times are treated as local times in that IANA timezone and converted to UTC in the calendar output. For example, `12:00` in `Europe/Berlin` is emitted as `10:00Z` during summer time.
+
+Set `MEALIE_FLOATING_TIMES=true` to emit meal times without a timezone or `Z` suffix. Calendar clients will then display the configured wall-clock time in their own timezone.
 
 For example:
 
 ```bash
-MEALIE_BREAKFAST_TIME=08:30 MEALIE_DINNER_TIME=18:00 \
+TZ=Europe/Berlin MEALIE_BREAKFAST_TIME=08:30 MEALIE_DINNER_TIME=18:00 \
   MEALIE_API_KEY=apikeyhere MEALIE_URL=https://mealie.example.com go run .
 ```
