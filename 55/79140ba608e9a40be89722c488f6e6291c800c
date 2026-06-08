@@ -1,0 +1,31 @@
+main.go
+  s_4e12648990f3e6::t_5936065eb1fec1 19-20,61-91,93-112,125-126,128,134,154,178-187,195-196
+main_test.go
+  s_4e12648990f3e6::t_0696d6867fa1b9 64-69,77-82
+  s_4e12648990f3e6::t_5936065eb1fec1 54-63,70-76,83-86,96,105-172
+.gitignore
+  h_2463f6ed1216b2 121
+README.md
+  s_4e12648990f3e6::t_5936065eb1fec1 24-29,34
+---
+{
+  "schema_version": "authorship/3.0.0",
+  "git_ai_version": "1.5.3",
+  "base_commit_sha": "5579140ba608e9a40be89722c488f6e6291c800c",
+  "prompts": {},
+  "humans": {
+    "h_2463f6ed1216b2": {
+      "author": "Jake Walker <hi@jakew.me>"
+    }
+  },
+  "sessions": {
+    "s_4e12648990f3e6": {
+      "agent_id": {
+        "tool": "codex",
+        "id": "019ea71a-2e80-7d62-8a77-be3b77dfb984",
+        "model": "gpt-5.5"
+      },
+      "human_author": "Jake Walker <hi@jakew.me>"
+    }
+  }
+}
